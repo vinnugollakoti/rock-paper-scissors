@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>rock paper scissors</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body background="assets/bg.png">
+    <div class="points" align="center">
+      <div id="first_points">0</div>
+      <div id="dash">-</div>
+      <div id="second_points">0</div>
+    </div>
+    <div class="div_boxes">
+      <div id="box_1">
+        <div class="space_for_image">
+          <p align="center">You</p>
+          <img src="" alt="" width="320px" id="my_choice" />
+        </div>
+        <div class="buttons">
+          <img src="assets/rock-logo.png" alt="" width="80px" id="rock-logo" />
+          <img
+            src="assets/paper-logo.png"
+            alt=""
+            width="80px"
+            id="paper-logo"
+          />
+          <img
+            src="assets/scissors-logo.png"
+            alt=""
+            width="80px"
+            id="scissors-logo"
+          />
+        </div>
+      </div>
+      <div id="image_1"><img src="assets/vs.png" alt="" height="400px" /></div>
+      <div id="box_2">
+        <div class="space_for_image">
+          <p align="center">Computer</p>
+          <img src="" alt="" id="computer_choice" width="320px" />
+        </div>
+      </div>
+    </div>
+    <div class="results" align="center">
+      <p id="winning_test"></p>
+      <div id="play_again_btn">Play again</div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

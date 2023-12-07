@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Poppins:wght@200;400&family=Rubik:ital,wght@0,300;0,500;1,300&display=swap");
+/*    styling the points section   */
+.points {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 530px;
+  width: 380px;
+}
+#first_points {
+  margin-top: 70px;
+  font-size: 60px;
+  color: white;
+  font-family: "Lora", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+#dash {
+  margin-top: 70px;
+  font-size: 60px;
+  color: white;
+  font-family: "Lora", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+#second_points {
+  margin-top: 70px;
+  font-size: 60px;
+  color: white;
+  font-family: "Lora", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+
+/* points section styling ends  */
+
+/* game section starts */
+
+.div_boxes {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+#box_1 {
+  width: 350px;
+  height: 350px;
+  border: solid rgb(244, 170, 58) 2px;
+}
+#box_2 {
+  width: 350px;
+  height: 350px;
+  border: solid rgb(244, 170, 58) 2px;
+}
+
+/* styling buttons inside the div */
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0px;
+}
+p {
+  color: white;
+  font-family: "Lora", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+.space_for_image {
+  height: 240px;
+  margin: 0px;
+}
+
+/* giving style to results section */
+#winning_test {
+    font-size: xx-large;
+}
+
+#play_again_btn {
+    background-color: rgb(244, 170, 58);
+    margin-top: -15px;
+    width: 200px;
+    height: auto;
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+    font-family: "Lora", serif;
+    font-family: "Poppins", sans-serif;
+    font-family: "Rubik", sans-serif;
+}
